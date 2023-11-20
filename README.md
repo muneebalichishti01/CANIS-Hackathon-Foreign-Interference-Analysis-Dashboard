@@ -1,5 +1,7 @@
 # CANIS-Hackathon-Foreign-Interference-Analysis-Dashboard
 
+[My Power BI Dashboard Youtube Demo](https://youtu.be/EJQ_PQ-CeHY)
+
 ### Inspiration and Motivation
 My journey into the complex world of hackathons began with a profound determination to make a difference in the digital age, where misinformation and foreign influence are rampant. The challenge of creating a tool that not only raises awareness about these pressing issues but also enables users to identify and understand the nuances of digital influence on global platforms was my primary motivation. This project was an embodiment of my long-standing aspiration to contribute meaningfully in the fight against digital disinformation; specially via the methodology of Visualizations.
 
