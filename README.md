@@ -1,28 +1,33 @@
 # CANIS-Hackathon-Foreign-Interference-Analysis-Dashboard
 
-### Motivation
-The growing frequency of disinformation and foreign influence in the digital era inspired me. I intended to design a tool that not only raises awareness of these challenges, but also helps users to comprehend and detect the various subtleties of digital influence and intervention on worldwide platforms.
+### Inspiration and Motivation
+My journey into the complex world of hackathons began with a profound determination to make a difference in the digital age, where misinformation and foreign influence are rampant. The challenge of creating a tool that not only raises awareness about these pressing issues but also enables users to identify and understand the nuances of digital influence on global platforms was my primary motivation. This project was an embodiment of my long-standing aspiration to contribute meaningfully in the fight against digital disinformation; specially via the methodology of Visualizations.
 
-### Functionality
-The Foreign Interference Analysis Dashboard is an advanced tool that analyzes, categorizes, and visualizes the level of foreign influence and interference across social media platforms. It distinguishes between state actors and influencers, offering information on their reach, effect, and target locations.
+### Functionality Overview
+The Foreign Interference Analysis Dashboard stands as a testament to user-centric design, offering an advanced yet accessible interface for analyzing and visualizing foreign influence on social media. This tool adeptly categorizes and quantifies the impact of state actors and influencers, providing insights into their reach, influence, and targeted regions. It bridges the gap between complex data and actionable intelligence, making it a crucial asset for understanding digital geopolitics.
 
+### Technologies Used
+Analytical Tool(s): Power BI
+Programming Language(s): Python
+Libraries Used: Pandas, IO, OS
 
-### How to use
+### How to use ?
 1. Clone the repository
 2. Install the requirements
 3. Run the `main.py` file
-4. Open the `dashboard.pbix` file in Power BI **__(To be added soon)__**
+4. Open the `dashboard.pbix` file in Power BI **_(To be added soon)_**
 
-### How I Made It
-This dashboard was created using a combination of Python for data analysis and cleaning, as well as Pandas and Scikit-learn for advanced data processing. I used Power BI for visualization because of its dynamic dashboard features and user-friendly interface.
+### Development Journey
+This dashboard was designed through a collaboration between robust data analysis and intuitive visualization. Leveraging Power BI for its dynamic and user-friendly capabilities, I transformed a meticulously cleaned and processed excel data file into an interactive platform. The backbone of this project was Python, utilized for its powerful libraries like Pandas, which facilitated sophisticated data processing and modeling.
 
-### Obstacles I encountered
-One significant problem was effectively distinguishing between state actors and influencers, which required a thorough investigation of entity ownership and intent. Another challenge was guaranteeing data accuracy and dealing with massive amounts of data from many social media networks.
-### Achievements that I am proud of
-I'm very pleased of my dashboard's ability to distinguish between influence and interference while still delivering a clear, user-friendly layout that makes complicated data approachable. My creative use of network graphs to depict follower data was also noteworthy.
+### Challenges Faced
+Navigating the intricacies of distinguishing state actors from influencers posed a significant intellectual challenge, requiring deep dives into entity ownership and underlying intentions. Handling voluminous data from diverse social media platforms while ensuring accuracy was another formidable task. Undertaking this project solo, especially while fighting with illness, tested my resilience and dedication, pushing me to my limits.
 
-### What I discovered
-This study broadened my awareness of the complexity of data analysis in social media situations. I discovered sophisticated data classification techniques, the significance of ethical issues in data management, and the potential of visual storytelling in data display.
+### Proud Accomplishments
+What fills me with immense pride is the dashboard's capability to demystify the complex interplay of influence and interference in an easily digestible format. The innovative use of network graphs to represent follower dynamics is a highlight of this project. This journey has been a crucible for my technical growth, deepening my understanding of data processing and enhancing my proficiency with the Pandas library beyond my previous experiences. 
 
-### What's next for Foreign Interference Analysis Dashboard?
-In the future, I intend to incorporate real-time data analysis, improve my machine learning models for better interference pattern prediction, and expand my dashboard to include other social media platforms. I also intend to work in a collaborative setting to make my tool more available to a larger audience, including educational institutions and policymakers.
+### Learnings and Discoveries
+This endeavor expanded my horizon in data analysis, particularly in the context of social media. I delved into advanced data classification techniques and grappled with the ethical dimensions of data management. The power of visual storytelling in making data comprehensible and engaging was a key revelation, shaping my approach to data presentation.
+
+### Future Aspirations
+Looking ahead, I aim to evolve the Foreign Interference Analysis Dashboard into a more dynamic tool, incorporating real-time data analysis and leveraging machine learning for predictive insights. The next phase of development envisions transforming this dashboard into a comprehensive full-stack website. I'm also eager to embrace collaborative environments, believing that diverse perspectives will further enrich this project. This is not just a conclusion but a gateway to new beginnings in my journey through the world of data and hackathons.
