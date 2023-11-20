@@ -13,9 +13,9 @@ def test1(data):
     Test 1 - The data is cleaned by dropping the columns that are NOT required for the analysis
     return: data
     '''
-    # drop_chinese = [col for col in data.columns if 'Chinese' in col]
+    drop_chinese = [col for col in data.columns if 'Chinese' in col]
     drop_url = [col for col in data.columns if 'URL' in col]
-    # data.drop(columns=drop_chinese, inplace=True)    # Drop columns with 'Chinese'
+    data.drop(columns=drop_chinese, inplace=True)    # Drop columns with 'Chinese'
     data.drop(columns=drop_url, inplace=True)        # Drop columns with 'URL'
     
     return saving.save_test(data)                         # Save the data to a csv file
@@ -45,12 +45,12 @@ def test3(data):
     '''
     data.rename(columns={
     'Name (English)': 'Name EN',
-    'Name (Chinese)': 'Name CN',
+    # 'Name (Chinese)': 'Name CN',
     'Region of Focus': 'Focus Region',
     'Entity owner (English)': 'Entity Owner EN',
-    'Entity owner (Chinese)': 'Entity Owner CN',
+    # 'Entity owner (Chinese)': 'Entity Owner CN',
     'Parent entity (English)': 'Parent Entity EN',
-    'Parent entity (Chinese)': 'Parent Entity CN',
+    # 'Parent entity (Chinese)': 'Parent Entity CN',
     
     'X (Twitter) handle': 'X (Twitter) Handle',
     'X (Twitter) Follower #': 'X (Twitter) Followers',
