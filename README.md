@@ -6,6 +6,13 @@ The growing frequency of disinformation and foreign influence in the digital era
 ### Functionality
 The Foreign Interference Analysis Dashboard is an advanced tool that analyzes, categorizes, and visualizes the level of foreign influence and interference across social media platforms. It distinguishes between state actors and influencers, offering information on their reach, effect, and target locations.
 
+
+### How to use
+1. Clone the repository
+2. Install the requirements
+3. Run the `main.py` file
+4. Open the `dashboard.pbix` file in Power BI **__(To be added soon)__**
+
 ### How I Made It
 This dashboard was created using a combination of Python for data analysis and cleaning, as well as Pandas and Scikit-learn for advanced data processing. I used Power BI for visualization because of its dynamic dashboard features and user-friendly interface.
 
