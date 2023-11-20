@@ -1,0 +1,121 @@
+﻿----------------------------------------
+First 4 rows:
+                             Name EN  Name CN Focus Region Language                 Entity Owner EN Entity Owner CN                                 Parent Entity EN Parent Entity CN X (Twitter) Handle  X (Twitter) Followers          Facebook Handle  Facebook Followers  Instagram Handle  Instagram Followers Threads Handle  Threads Followers YouTube Handle  YouTube Followers TikTok Handle  TikTok Followers
+0           Yang Xinmeng (Abby Yang)      杨欣萌  Anglosphere  English         China Media Group (CMG)        中央广播电视总台                     Central Publicity Department          中共中央宣传部       _bubblyabby_                   1678  itsAbby-103043374799622             1387432      _bubblyabby_                 9507   _bubblyabby_                197        itsAbby               4680  _bubblyabby_               660
+1               CGTN Culture Express  Unknown  Anglosphere  English         China Media Group (CMG)        中央广播电视总台                     Central Publicity Department          中共中央宣传部    _cultureexpress                   2488                  Unknown                   0  _cultureexpress/                  635        Unknown                  0        Unknown                  0       Unknown                 0
+2     All-China Students' Federation   中华全国学联        China  Chinese  All-China Students' Federation       中华全国学生联合会  Central Committee of the Communist Youth League            共青团中央           ACSF1919                   5136                  Unknown                   0           Unknown                    0        Unknown                  0        Unknown                  0       Unknown                 0
+3  Chen Zhong (Dechinghutay / Ghoti)       陈重  Afghanistan   Pashto         China Media Group (CMG)        中央广播电视总台                     Central Publicity Department          中共中央宣传部        afghanchina                   1800             dechinghutay             1600000           Unknown                    0        Unknown                  0   dechinghutay                695  dechinghutay            326100
+
+Last 4 rows:
+                                             Name EN  Name CN Focus Region Language                                                                                                                                 Entity Owner EN          Entity Owner CN                       Parent Entity EN Parent Entity CN X (Twitter) Handle  X (Twitter) Followers       Facebook Handle  Facebook Followers Instagram Handle  Instagram Followers Threads Handle  Threads Followers YouTube Handle  YouTube Followers TikTok Handle  TikTok Followers
+754  Chinese Office of the Commissioner in Hong Kong  外交部駐港公署    Hong Kong  Chinese  Office of the Commissioner of the Ministry of Foreign Affairs of the People's Republic of China in the Hong Kong Special Administrative Region  中華人民共和國外交部駐香港特別行政區特派員公署            Ministry of Foreign Affairs       中华人民共和国外交部            Unknown                      0           MFAofficeHK              853000          Unknown                    0        Unknown                  0        Unknown                  0       Unknown                 0
+755                                  Shiting Wenshan     视听文山       Yunnan  Chinese                                                                                                              Wenshan Radio & Television Station                  文山广播电视台  Wenshan Municipal People's Government          文山市人民政府            Unknown                      0  视听文山-100068200601004                  15          Unknown                    0        Unknown                  0        Unknown                  0       Unknown                 0
+756                                   New Marco Polo  Unknown  Anglosphere  English                                                                                                                              Xinhua News Agency                      新华社                          State Council       中华人民共和国国务院            Unknown                      0    marcopolo.beijing/             2300000          Unknown                    0        Unknown                  0        Unknown                  0       Unknown                 0
+757                                 Xinhua Hong Kong     新華香港    Hong Kong  Chinese                                                                                                                              Xinhua News Agency                      新华社                          State Council       中华人民共和国国务院            Unknown                      0              XinhuaHK             1400000          Unknown                    0        Unknown                  0        Unknown                  0       Unknown                 0
+
+Dataset Information:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 758 entries, 0 to 757
+Data columns (total 20 columns):
+ #   Column                 Non-Null Count  Dtype 
+---  ------                 --------------  ----- 
+ 0   Name EN                758 non-null    object
+ 1   Name CN                758 non-null    object
+ 2   Focus Region           758 non-null    object
+ 3   Language               758 non-null    object
+ 4   Entity Owner EN        758 non-null    object
+ 5   Entity Owner CN        758 non-null    object
+ 6   Parent Entity EN       758 non-null    object
+ 7   Parent Entity CN       758 non-null    object
+ 8   X (Twitter) Handle     758 non-null    object
+ 9   X (Twitter) Followers  758 non-null    int32 
+ 10  Facebook Handle        758 non-null    object
+ 11  Facebook Followers     758 non-null    int32 
+ 12  Instagram Handle       758 non-null    object
+ 13  Instagram Followers    758 non-null    int32 
+ 14  Threads Handle         758 non-null    object
+ 15  Threads Followers      758 non-null    int32 
+ 16  YouTube Handle         758 non-null    object
+ 17  YouTube Followers      758 non-null    int32 
+ 18  TikTok Handle          758 non-null    object
+ 19  TikTok Followers       758 non-null    int32 
+dtypes: int32(6), object(14)
+memory usage: 100.8+ KB
+
+Statistical Summary:
+       X (Twitter) Followers  Facebook Followers  Instagram Followers  Threads Followers  YouTube Followers  TikTok Followers
+count                  758.0               758.0                758.0              758.0              758.0             758.0
+mean                 92006.0           1382361.0              19508.0              569.0            39823.0           26689.0
+std                 723199.0           8322798.0             167757.0             6319.0           273391.0          182535.0
+min                      0.0                 0.0                  0.0                0.0                0.0               0.0
+25%                      4.0                 0.0                  0.0                0.0                0.0               0.0
+50%                   2232.0                 0.0                  0.0                0.0                0.0               0.0
+75%                  12400.0            125750.0                  0.0                0.0                0.0               0.0
+max               13000000.0         116450496.0            2400000.0           121000.0          5020000.0         2600000.0
+
+Data Types:
+Name EN                  object
+Name CN                  object
+Focus Region             object
+Language                 object
+Entity Owner EN          object
+Entity Owner CN          object
+Parent Entity EN         object
+Parent Entity CN         object
+X (Twitter) Handle       object
+X (Twitter) Followers     int32
+Facebook Handle          object
+Facebook Followers        int32
+Instagram Handle         object
+Instagram Followers       int32
+Threads Handle           object
+Threads Followers         int32
+YouTube Handle           object
+YouTube Followers         int32
+TikTok Handle            object
+TikTok Followers          int32
+
+Missing Values:
+Name EN                  0
+Name CN                  0
+Focus Region             0
+Language                 0
+Entity Owner EN          0
+Entity Owner CN          0
+Parent Entity EN         0
+Parent Entity CN         0
+X (Twitter) Handle       0
+X (Twitter) Followers    0
+Facebook Handle          0
+Facebook Followers       0
+Instagram Handle         0
+Instagram Followers      0
+Threads Handle           0
+Threads Followers        0
+YouTube Handle           0
+YouTube Followers        0
+TikTok Handle            0
+TikTok Followers         0
+
+Unique Values in each column:
+Name EN: 758
+Name CN: 317
+Focus Region: 172
+Language: 46
+Entity Owner EN: 87
+Entity Owner CN: 88
+Parent Entity EN: 69
+Parent Entity CN: 66
+X (Twitter) Handle: 574
+X (Twitter) Followers: 538
+Facebook Handle: 325
+Facebook Followers: 244
+Instagram Handle: 140
+Instagram Followers: 137
+Threads Handle: 36
+Threads Followers: 36
+YouTube Handle: 158
+YouTube Followers: 152
+TikTok Handle: 121
+TikTok Followers: 113
+----------------------------------------

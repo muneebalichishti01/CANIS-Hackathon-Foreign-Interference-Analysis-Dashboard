@@ -17,14 +17,14 @@ def main():
     The main function is called to run the program.
     return: None
     '''
-    orig_data = analysis.load()                       # Loading the data
-    # analysis.structure(orig_data)                     # Showing the basic structure of data before cleaning
+    orig_data = analysis.load()                         # Loading the data
+    analysis.structure_to_file(orig_data, 1)            # Saving the basic structure of data before cleaning
 
-    cleaned_data = cleaning.clean(orig_data)          # Cleaning the data
-    # analysis.structure(cleaned_data)                  # Showing the basic structure of data after cleaning
+    cleaned_data = cleaning.clean(orig_data)            # Cleaning the data
+    analysis.structure_to_file(cleaned_data, 2)         # Saving the basic structure of data after cleaning
 
-    modelized_data = modeling.model(cleaned_data)     # Modeling the data
-    analysis.structure(modelized_data)                # Printing the new structure of data after modeling
+    modelized_data = modeling.model(cleaned_data)       # Modeling the data
+    analysis.structure_to_file(modelized_data, 3)       # Saving the new structure of data after modeling
     
     
 # Calling the main function
